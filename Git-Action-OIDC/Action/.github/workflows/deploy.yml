@@ -37,5 +37,5 @@ jobs:
         run: terraform fmt -check
       - name: Validate
         run: terraform validate
-      - name: Plan
+      - name: Plan1
         run: terraform plan
